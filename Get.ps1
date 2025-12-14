@@ -29,7 +29,7 @@ Remove-Item "$env:TEMP/win11debloat.zip"
 Write-Output "> Running Win11Debloat..."
 
 # Run Win11Debloat script with the provided arguments
-powershell.exe "$env:TEMP\Win11Debloat\main.ps1"
+powershell.exe -File "$env:TEMP\Win11Debloat\main.ps1"
 
 # Remove all remaining script files, except for CustomAppsList and SavedSettings files
 if (Test-Path "$env:TEMP/Win11Debloat") {
