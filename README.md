@@ -12,7 +12,7 @@ Download & run the script automatically via PowerShell.
 2. Copy and paste the command below into PowerShell:
 
 ```PowerShell
-irm https://raw.githubusercontent.com/MineFartS/Win11Debloat/refs/heads/master/Get.ps1 | iex
+irm https://raw.githubusercontent.com/MineFartS/Win11Debloat/refs/heads/master/run.ps1 | iex
 ```
 
 3. Wait for the script to automatically download Win11Debloat.
