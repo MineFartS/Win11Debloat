@@ -1,7 +1,3 @@
-# -------------------------------------------------------------------------------------------------------------- #
-#  The apps below this line WILL be uninstalled by default. Add a # character in front of any app you want to    #
-#   KEEP installed by default.                                                                                   #
-# -------------------------------------------------------------------------------------------------------------- #
 Clipchamp.Clipchamp                            # Video editor from Microsoft
 Microsoft.3DBuilder                            # Basic 3D modeling software
 Microsoft.549981C3F5F10                        # Cortana app (Voice assistant)
@@ -43,7 +39,6 @@ MicrosoftCorporationII.MicrosoftFamily         # Family Safety App for managing 
 MicrosoftCorporationII.QuickAssist             # Remote assistance tool
 MicrosoftTeams                                 # Old MS Teams personal (MS Store version)
 MSTeams                                        # New MS Teams app (Work/School or Personal)
-
 ACGMediaPlayer                                 # Media player app
 ActiproSoftwareLLC                             # Potentially UI controls or software components, often bundled by OEMs
 AdobeSystemsIncorporated.AdobePhotoshopExpress # Basic photo editing app from Adobe
@@ -92,14 +87,6 @@ Viber                                          # Messaging and calling app
 WinZipUniversal                                # File compression and extraction utility (Universal Windows Platform version)
 Wunderlist                                     # To-do list app (Acquired by Microsoft, functionality moved to Microsoft To Do)
 XING                                           # Professional networking platform popular in German-speaking countries
-
-
-
-
-# ------------------------------------------------------------------------------------------------------------- #
-#  The apps below this line will NOT be uninstalled by default. Remove the # character in front of any app you  #
-#   want to UNINSTALL by default.                                                                               #
-# ------------------------------------------------------------------------------------------------------------- #
 Microsoft.BingSearch                          # Web Search from Microsoft Bing (Integrates into Windows Search)
 Microsoft.Copilot                             # New Microsoft Copilot app (AI assistant)
 Microsoft.Edge                                # Edge browser (Can only be uninstalled in European Economic Area)
@@ -111,17 +98,11 @@ Microsoft.OneDrive                            # OneDrive consumer cloud storage 
 Microsoft.OutlookForWindows                   # New mail app: Outlook for Windows
 Microsoft.Paint                               # Classic Paint (Traditional 2D paint application)
 Microsoft.People                              # Required for & included with Mail & Calendar (Contacts management)
-#Microsoft.RemoteDesktop                       # Remote Desktop client app
 Microsoft.ScreenSketch                        # Snipping Tool (Screenshot and annotation tool)
 Microsoft.StartExperiencesApp                 # This app powers Windows Widgets My Feed
 Microsoft.Whiteboard                          # Digital collaborative whiteboard app
-#Microsoft.Windows.Photos                      # Default photo viewing and basic editing app
 Microsoft.WindowsCalculator                   # Calculator app
-#Microsoft.WindowsCamera                       # Camera app for using built-in or connected cameras
 Microsoft.windowscommunicationsapps           # Mail & Calendar app suite
-#Microsoft.WindowsNotepad                      # Notepad text editor app
-#Microsoft.WindowsStore                        # Microsoft Store, WARNING: This app cannot be reinstalled easily if removed!
-#Microsoft.WindowsTerminal                     # New default terminal app in windows 11 (Command Prompt, PowerShell, WSL)
 Microsoft.Xbox.TCUI                           # UI framework, seems to be required for MS store, photos and certain games
 Microsoft.XboxGameOverlay                     # Game overlay, required/useful for some games (Part of Xbox Game Bar)
 Microsoft.XboxGamingOverlay                   # Game overlay, required/useful for some games (Part of Xbox Game Bar)
