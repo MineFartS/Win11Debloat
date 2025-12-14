@@ -100,53 +100,53 @@ XING                                           # Professional networking platfor
 #  The apps below this line will NOT be uninstalled by default. Remove the # character in front of any app you  #
 #   want to UNINSTALL by default.                                                                               #
 # ------------------------------------------------------------------------------------------------------------- #
-#Microsoft.BingSearch                          # Web Search from Microsoft Bing (Integrates into Windows Search)
-#Microsoft.Copilot                             # New Microsoft Copilot app (AI assistant)
-#Microsoft.Edge                                # Edge browser (Can only be uninstalled in European Economic Area)
-#Microsoft.GamingApp                           # Modern Xbox Gaming App, required for installing some PC games
-#Microsoft.GetHelp                             # Required for some Windows 11 Troubleshooters and support interactions
-#Microsoft.M365Companions                      # Microsoft 365 (Business) Calendar, Files and People mini-apps, these apps may be reinstalled if enabled by your Microsoft 365 admin
-#Microsoft.MSPaint                             # Paint 3D (Modern paint application with 3D features)
-#Microsoft.OneDrive                            # OneDrive consumer cloud storage client
-#Microsoft.OutlookForWindows                   # New mail app: Outlook for Windows
-#Microsoft.Paint                               # Classic Paint (Traditional 2D paint application)
-#Microsoft.People                              # Required for & included with Mail & Calendar (Contacts management)
+Microsoft.BingSearch                          # Web Search from Microsoft Bing (Integrates into Windows Search)
+Microsoft.Copilot                             # New Microsoft Copilot app (AI assistant)
+Microsoft.Edge                                # Edge browser (Can only be uninstalled in European Economic Area)
+Microsoft.GamingApp                           # Modern Xbox Gaming App, required for installing some PC games
+Microsoft.GetHelp                             # Required for some Windows 11 Troubleshooters and support interactions
+Microsoft.M365Companions                      # Microsoft 365 (Business) Calendar, Files and People mini-apps, these apps may be reinstalled if enabled by your Microsoft 365 admin
+Microsoft.MSPaint                             # Paint 3D (Modern paint application with 3D features)
+Microsoft.OneDrive                            # OneDrive consumer cloud storage client
+Microsoft.OutlookForWindows                   # New mail app: Outlook for Windows
+Microsoft.Paint                               # Classic Paint (Traditional 2D paint application)
+Microsoft.People                              # Required for & included with Mail & Calendar (Contacts management)
 #Microsoft.RemoteDesktop                       # Remote Desktop client app
-#Microsoft.ScreenSketch                        # Snipping Tool (Screenshot and annotation tool)
-#Microsoft.StartExperiencesApp                 # This app powers Windows Widgets My Feed
-#Microsoft.Whiteboard                          # Digital collaborative whiteboard app
+Microsoft.ScreenSketch                        # Snipping Tool (Screenshot and annotation tool)
+Microsoft.StartExperiencesApp                 # This app powers Windows Widgets My Feed
+Microsoft.Whiteboard                          # Digital collaborative whiteboard app
 #Microsoft.Windows.Photos                      # Default photo viewing and basic editing app
-#Microsoft.WindowsCalculator                   # Calculator app
+Microsoft.WindowsCalculator                   # Calculator app
 #Microsoft.WindowsCamera                       # Camera app for using built-in or connected cameras
-#Microsoft.windowscommunicationsapps           # Mail & Calendar app suite
+Microsoft.windowscommunicationsapps           # Mail & Calendar app suite
 #Microsoft.WindowsNotepad                      # Notepad text editor app
 #Microsoft.WindowsStore                        # Microsoft Store, WARNING: This app cannot be reinstalled easily if removed!
 #Microsoft.WindowsTerminal                     # New default terminal app in windows 11 (Command Prompt, PowerShell, WSL)
-#Microsoft.Xbox.TCUI                           # UI framework, seems to be required for MS store, photos and certain games
-#Microsoft.XboxGameOverlay                     # Game overlay, required/useful for some games (Part of Xbox Game Bar)
-#Microsoft.XboxGamingOverlay                   # Game overlay, required/useful for some games (Part of Xbox Game Bar)
-#Microsoft.XboxIdentityProvider                # Xbox sign-in framework, required for some games and Xbox services
-#Microsoft.XboxSpeechToTextOverlay             # Might be required for some games, WARNING: This app cannot be reinstalled easily! (Accessibility feature)
-#Microsoft.YourPhone                           # Phone link (Connects Android/iOS phone to PC)
-#Microsoft.ZuneMusic                           # Modern Media Player (Replaced Groove Music, plays local audio/video)
-#MicrosoftWindows.CrossDevice                  # Phone integration within File Explorer, Camera and more (Part of Phone Link features)
-#AD2F1837.HPAIExperienceCenter                 # HP OEM software, AI-enhanced features and support
-#AD2F1837.HPConnectedMusic                     # HP OEM software for music (Potentially discontinued)
-#AD2F1837.HPConnectedPhotopoweredbySnapfish    # HP OEM software for photos, integrated with Snapfish (Potentially discontinued)
-#AD2F1837.HPDesktopSupportUtilities            # HP OEM software providing desktop support tools
-#AD2F1837.HPEasyClean                          # HP OEM software for system cleaning or optimization
-#AD2F1837.HPFileViewer                         # HP OEM software for viewing specific file types
-#AD2F1837.HPJumpStarts                         # HP OEM software for tutorials, app discovery, or quick access to HP features
-#AD2F1837.HPPCHardwareDiagnosticsWindows       # HP OEM software for PC hardware diagnostics
-#AD2F1837.HPPowerManager                       # HP OEM software for managing power settings and battery
-#AD2F1837.HPPrinterControl                     # HP OEM software for managing HP printers
-#AD2F1837.HPPrivacySettings                    # HP OEM software for managing privacy settings
-#AD2F1837.HPQuickDrop                          # HP OEM software for quick file transfer between devices
-#AD2F1837.HPQuickTouch                         # HP OEM software, possibly for touch-specific shortcuts or controls
-#AD2F1837.HPRegistration                       # HP OEM software for product registration
-#AD2F1837.HPSupportAssistant                   # HP OEM software for support, updates, and troubleshooting
-#AD2F1837.HPSureShieldAI                       # HP OEM security software, likely AI-based threat protection
-#AD2F1837.HPSystemInformation                  # HP OEM software for displaying system information
-#AD2F1837.HPWelcome                            # HP OEM software providing a welcome experience or initial setup help
-#AD2F1837.HPWorkWell                           # HP OEM software focused on well-being, possibly with break reminders or ergonomic tips
-#AD2F1837.myHP                                 # HP OEM central hub app for device info, support, and services
+Microsoft.Xbox.TCUI                           # UI framework, seems to be required for MS store, photos and certain games
+Microsoft.XboxGameOverlay                     # Game overlay, required/useful for some games (Part of Xbox Game Bar)
+Microsoft.XboxGamingOverlay                   # Game overlay, required/useful for some games (Part of Xbox Game Bar)
+Microsoft.XboxIdentityProvider                # Xbox sign-in framework, required for some games and Xbox services
+Microsoft.XboxSpeechToTextOverlay             # Might be required for some games, WARNING: This app cannot be reinstalled easily! (Accessibility feature)
+Microsoft.YourPhone                           # Phone link (Connects Android/iOS phone to PC)
+Microsoft.ZuneMusic                           # Modern Media Player (Replaced Groove Music, plays local audio/video)
+MicrosoftWindows.CrossDevice                  # Phone integration within File Explorer, Camera and more (Part of Phone Link features)
+AD2F1837.HPAIExperienceCenter                 # HP OEM software, AI-enhanced features and support
+AD2F1837.HPConnectedMusic                     # HP OEM software for music (Potentially discontinued)
+AD2F1837.HPConnectedPhotopoweredbySnapfish    # HP OEM software for photos, integrated with Snapfish (Potentially discontinued)
+AD2F1837.HPDesktopSupportUtilities            # HP OEM software providing desktop support tools
+AD2F1837.HPEasyClean                          # HP OEM software for system cleaning or optimization
+AD2F1837.HPFileViewer                         # HP OEM software for viewing specific file types
+AD2F1837.HPJumpStarts                         # HP OEM software for tutorials, app discovery, or quick access to HP features
+AD2F1837.HPPCHardwareDiagnosticsWindows       # HP OEM software for PC hardware diagnostics
+AD2F1837.HPPowerManager                       # HP OEM software for managing power settings and battery
+AD2F1837.HPPrinterControl                     # HP OEM software for managing HP printers
+AD2F1837.HPPrivacySettings                    # HP OEM software for managing privacy settings
+AD2F1837.HPQuickDrop                          # HP OEM software for quick file transfer between devices
+AD2F1837.HPQuickTouch                         # HP OEM software, possibly for touch-specific shortcuts or controls
+AD2F1837.HPRegistration                       # HP OEM software for product registration
+AD2F1837.HPSupportAssistant                   # HP OEM software for support, updates, and troubleshooting
+AD2F1837.HPSureShieldAI                       # HP OEM security software, likely AI-based threat protection
+AD2F1837.HPSystemInformation                  # HP OEM software for displaying system information
+AD2F1837.HPWelcome                            # HP OEM software providing a welcome experience or initial setup help
+AD2F1837.HPWorkWell                           # HP OEM software focused on well-being, possibly with break reminders or ergonomic tips
+AD2F1837.myHP                                 # HP OEM central hub app for device info, support, and services
