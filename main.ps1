@@ -58,6 +58,19 @@ Get-ChildItem -Path "$PSScriptRoot\Regfiles\" | ForEach-Object {
 }
 
 # ==============================================================================================================================
+# Restart Explorer
+
+Write-Host ""
+Write-Host "Restarting Explorer"
+
+# Restart File Explorer
+Stop-Process `
+    -Name 'Explorer' `
+    -Force
+
+# ==============================================================================================================================
+
+Write-Host ""
 
 #
 Pause
