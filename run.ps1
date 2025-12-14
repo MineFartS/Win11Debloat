@@ -27,9 +27,17 @@ Expand-Archive "$env:TEMP/win11debloat.zip" "$env:TEMP/Win11Debloat"
 Remove-Item "$env:TEMP/win11debloat.zip"
 
 Write-Output "> Running Win11Debloat..."
-
-# Run Win11Debloat script
-& "$env:TEMP\Win11Debloat\main.ps1"
+ 
+# Run main.ps1 with elevated privileges
+Start-Process `
+    -FilePath "powershell" `
+    -Verb RunAs `
+    -ArgumentList @(
+        "-NoProfile",
+        "-ExecutionPolicy", "Bypass",
+        "-File", "$env:TEMP\Win11Debloat\Win11Debloat-master\main.ps1"
+    )
+    
 
 # Remove all remaining script files, except for CustomAppsList and SavedSettings files
 if (Test-Path "$env:TEMP/Win11Debloat") {
