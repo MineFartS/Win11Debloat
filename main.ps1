@@ -1,17 +1,15 @@
-#Requires -RunAsAdministrator
 
 # ==============================================================================================================================
 # Remove Apps
 
-# Raw list of apps
-$rApps = (Get-Content -Path "$PSScriptRoot/Appslist.txt")
-
-# Get list of apps from file at the path provided, and remove them one by one
-Foreach ($line in $rApps.Split('\n')) { 
+# 
+Get-Content -Path "$PSScriptRoot/Appslist.txt" | ForEach-Object {
     
-    $app = ($line.Split('#')[0].Trim())
+    #
+    $app = ($_.Split('#')[0].Trim())
 
-    Write-Output "Attempting to remove $app..."
+    Write-Host ""
+    Write-Output "Removing app: '$app'"
 
     #
     if (($app -eq "Microsoft.OneDrive") -or ($app -eq "Microsoft.Edge")) {
@@ -50,6 +48,9 @@ Foreach ($line in $rApps.Split('\n')) {
 
 #
 Get-ChildItem -Path "$PSScriptRoot\Regfiles\" | ForEach-Object {
+
+    Write-Host ""
+    Write-Host "Updating Registry: '$($_.Name)'"
     
     #
     reg import $_.FullName
@@ -59,4 +60,4 @@ Get-ChildItem -Path "$PSScriptRoot\Regfiles\" | ForEach-Object {
 # ==============================================================================================================================
 
 #
-Pause.exe
+Pause
