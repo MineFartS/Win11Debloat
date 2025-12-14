@@ -21,7 +21,10 @@ if (Test-Path "$env:TEMP/Win11Debloat") {
 Write-Output "> Unpacking..."
 
 # Unzip archive to Win11Debloat folder
-Expand-Archive "$env:TEMP/win11debloat.zip" "$env:TEMP/Win11Debloat"
+Expand-Archive `
+    "$env:TEMP/win11debloat.zip" `
+    "$env:TEMP/Win11Debloat" `
+    -Force
 
 # Remove archive
 Remove-Item "$env:TEMP/win11debloat.zip"
@@ -38,9 +41,3 @@ Start-Process `
         "-File", "$env:TEMP\Win11Debloat\Win11Debloat-master\main.ps1"
     )
     
-
-# Remove all remaining script files, except for CustomAppsList and SavedSettings files
-if (Test-Path "$env:TEMP/Win11Debloat") {
-    Write-Output "> Cleaning up..."
-    Remove-Item "$env:TEMP/Win11Debloat" -Recurse -Force
-}
