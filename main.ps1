@@ -17,7 +17,6 @@ Get-Content -Path "$PSScriptRoot/Appslist.txt" | ForEach-Object {
         winget.exe `
             uninstall `
             --accept-source-agreements `
-            --disable-interactivity `
             --id $app
 
     #
