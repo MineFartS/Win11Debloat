@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; --- Set Time Zone to Eastern Standard Time (New York) ---
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]
+"TimeZoneKeyName"="Eastern Standard Time"
+
+; --- Set Time Format to 24-hour (Military) ---
+[HKEY_CURRENT_USER\Control Panel\International]
+"sTimeFormat"="H:mm:ss"
+"sShortTime"="H:mm"
